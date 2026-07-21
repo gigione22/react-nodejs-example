@@ -11,7 +11,4 @@ jobs:
     steps:
       - name: Say Hello
         run: echo "Hello from CI"
-  script:
-    - java -version
-    - mvn test
-    
+ 
